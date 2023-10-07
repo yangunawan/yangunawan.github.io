@@ -1,0 +1,126 @@
+.bg-blue{
+    background-color: transparent!important;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* TEXT HOMEPAGE */
+
+.formula_home {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.formula_home:hover {
+    border: 1px solid #ed2021;
+    background: #ed2021;
+}
+
+
+.anything h1{
+    color:red;
+}
+
+.anything h3 {
+    font-weight: bold;
+    color:#e54726;
+    text-decoration: underline;
+    text-align: left;
+}
+
+
+
+
+a img{
+    width:170px;
+}
+
+.navbar_background{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background: rgb(65, 62, 62);
+    z-index: 3;
+    height: fit-content;
+}
+.navBar {
+    display:block;
+}
+.navBar > a, .navBar > div, .navBar > i {
+    display: inline-block;
+}
+#NavLinks{
+    display: inline;
+}
+.navBar_2{
+    display: block;
+}
+nav.black{
+    background: rgb(65, 62, 62);
+}
+
+.nav_links {
+    flex:1;
+    text-align: right;
+}
+
+.nav_links ul {
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+    padding: 0 6%;
+}
+
+.nav_links ul .Link{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    /* margin-right: 100px; */
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links ul .Link a {
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav_links ul .Link::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background: red;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav_links ul .Link:hover::after{
+    width: 100%;
+}
+
+html, body{
+    margin: 0px;
+}
+
+.navBar_2{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    background: rgb(65, 62, 62);
+    z-index: 3;
+    position:relative;
+    visibility: hidden;
+}
